@@ -23,32 +23,3 @@ export const Primary: Story = {
     children: 'Button',
   },
 };
-
-export const Secondary: Story = {
-  args: {
-    children: 'Button',
-    variant: 'outlined',
-  },
-};
-
-export const Large: Story = {
-  args: {
-    size: 'large',
-    children: 'Button',
-  },
-};
-
-export const Small: Story = {
-  args: {
-    size: 'small',
-    children: 'Button',
-  },
-};
-
-export const Warning: Story = {
-  args: {
-    children: '¯\\_(ツ)_/¯',
-    variant: 'contained',
-    color: 'error'
-  }
-};
