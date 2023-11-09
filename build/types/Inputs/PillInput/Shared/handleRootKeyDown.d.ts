@@ -1,0 +1,2 @@
+/// <reference types="react" />
+export declare function handleRootKeyDown(e: React.KeyboardEvent<HTMLDivElement>, ref: React.RefObject<HTMLInputElement>, setSelectedPill: (selected: number | null) => void, selectedPill: number | null, values: string[], clearInputValue: () => void, submitKeyboardKeys?: string[], validate?: (val: string, setErrorMessages?: boolean) => boolean, clearErrors?: () => void, onChangeCallback?: (vals: string[]) => void, inputValue?: string): void;
